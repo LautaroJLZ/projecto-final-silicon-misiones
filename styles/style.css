@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Aquí comienzan los estilos del header */
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(128, 80, 80);
+}
+/* Estilos de las imagenes de los costados */
+.img-rick, .img-morty {
+    width: 200px;
+    height: 200px;
+}
+/* Estilos imagen de titulo */
+.img-tittle {
+    width: 380px;
+}
+/* Estilos de menu de navegación */
+.container-nav-list {
+    display: flex;
+    justify-content: center;
+    width: 40rem;
+}
+.nav-list {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    gap: 4rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
