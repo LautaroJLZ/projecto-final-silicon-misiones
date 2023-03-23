@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Barlow', sans-serif;
+    color: #2C3639;
+}
+body{
+    background-color: #3F4E4F;
 }
 /* Aquí comienzan los estilos del header */
 .container-header {
@@ -9,12 +15,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(128, 80, 80);
+    background-color: #A27B5C;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid #2C3639;
 }
 /* Estilos de las imagenes de los costados */
 .img-rick, .img-morty {
     width: 200px;
     height: 200px;
+    margin: 5px;
+    border: 2px solid #2C3639;
 }
 /* Estilos imagen de titulo */
 .img-tittle {
@@ -34,10 +45,67 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 30px;
+    font-size: 18px;
     gap: 4rem;
+}
+li {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #DCD7C9;
 }
 a {
     text-decoration: none;
-    color: black;
+}
+
+/* Aquí comienzan los estilos del Main */
+.container-main {
+   padding: 30px;
+   margin: 20px;
+   display: flex;
+   border-radius: 10px;
+   background-color: #A27B5C;
+   border: 2px solid #2C3639;
+}
+img {
+    width: 285px;
+    border-radius: 10px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/* Estilos de la caja de sinopsis */
+.container-synopsis{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.synopsis-tittle {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.synopsis-text {
+    font-size: 40px;
+    margin: 10px;
+    text-align: justify;
+}
+.container-sdata {
+    margin: 10px;
+}
+.synopsis-data {
+    font-size: 30px;
+}
+.usa-flag {
+    width: 25px;
+    border: 2px solid #2C3639;
+}
+.tittle-characters {
+    background-color: #A27B5C;
+    border: 2px solid #2C3639;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
 }
