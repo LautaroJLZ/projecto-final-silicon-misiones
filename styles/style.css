@@ -8,7 +8,7 @@
 body{
     background-image: url("https://images5.alphacoders.com/125/1259528.jpg");
     background-repeat: no-repeat;
-    color: #171a2b;
+    color: #fffd6a;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -149,12 +149,12 @@ img {
   }
   .text-container-footer {
     font-size: 30px;
-    color: #ffffff;
+    color: #fffd6a;
     margin-left: 5px;
   }
   .container-personal-data {
     margin: 30px;
-    color: #c6ccf0;
+    color: #fffd6a;
     gap: 5px;
   }
   .ppdata {
@@ -162,7 +162,7 @@ img {
   }
   a {
     text-decoration: none;
-    color: #c6ccf0;
+    color: #fffd6a;
   }
 
   @media(max-width:440px){
