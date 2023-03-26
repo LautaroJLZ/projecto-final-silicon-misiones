@@ -8,7 +8,6 @@
 body{
     background-image: url("https://images5.alphacoders.com/125/1259528.jpg");
     background-repeat: no-repeat;
-    color: #fffd6a;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -60,12 +59,13 @@ a {
 /* Aquí comienzan los estilos del Main */
 .container-main {
    padding: 30px;
-   /* margin: 20px; */
    display: flex;
    border-radius: 10px;
    background-color: rgba(71, 71, 71, 0.444);
    border: 2px solid #2C3639;
    margin: 10px;
+   text-shadow: -9px 4px 9px rgba(0,0,0,0.51);
+   color: #02b1c8;
 }
 img {
     width: 285px;
@@ -73,7 +73,6 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
-
 /* Estilos de la caja de sinopsis */
 .container-synopsis{
     display: flex;
@@ -105,6 +104,7 @@ img {
 .tittle-characters {
     background-color: rgba(71, 71, 71, 0.444);
     border: 2px solid #2C3639;
+    color: #02b1c8;
     border-radius: 10px;
     font-size: 40px;
     text-align: center;
@@ -125,6 +125,9 @@ img {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 3px 4px 56px 17px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 3px 4px 56px 17px rgba(0,0,0,0.81);
+    -moz-box-shadow: 3px 4px 56px 17px rgba(0,0,0,0.81);
 }
 .item-grid:hover {
     background-color: rgba(95, 94, 94, 0.444);
@@ -134,29 +137,51 @@ img {
     width: 100%;
     border-radius: 50%;
   }
+  
   /* Estilos footer */
   .container-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px;
+    text-shadow: -9px 4px 9px rgba(0,0,0,0.51);
+    color: #02b1c8;
   }
   .text-container-footer {
     font-size: 30px;
-    color: #fffd6a;
     margin-left: 5px;
   }
   .container-personal-data {
     margin: 30px;
-    color: #fffd6a;
     gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -9px 4px 9px rgba(0,0,0,0.51);
+    color: #02b1c8;
   }
   .ppdata {
     margin-top: 5px;
   }
   a {
     text-decoration: none;
-    color: #fffd6a;
+    color: #02b1c8;
+    font-weight: bold;
+  }
+  .github {
+    text-align: right;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    text-shadow: -9px 4px 9px rgba(0,0,0,0.51);
+    margin-right: 20px;
+  }
+  .fa-solid {
+    color: #1d5798;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  .footer-tittles{
+    color: rgb(221, 5, 210);
   }
   /* Responsive Design para Móviles */
   @media(max-width:440px){
@@ -213,6 +238,7 @@ img {
         text-align: center;
     }
   }
+  /* Media para que no se rompa en pantallas menores a 1250px */
   @media(max-width:1250px){
     body{
         display: block;
