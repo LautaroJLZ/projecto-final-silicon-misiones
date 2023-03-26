@@ -39,7 +39,6 @@ body{
 .container-nav-list {
     display: flex;
     justify-content: center;
-    width: 40rem;
 }
 .nav-list {
     list-style: none;
@@ -201,9 +200,6 @@ img {
     body {
         display: block;
     }
-    .container-nav-list{
-        width: 100%;
-    }
     .container-header {
         display: block;
         text-align: center;
@@ -213,6 +209,19 @@ img {
         text-align: center;
     }
     .container-footer {
+        display: block;
+        text-align: center;
+    }
+  }
+  @media(max-width:1250px){
+    body{
+        display: block;
+    }
+    .container-header {
+        display: block;
+        text-align: center;
+    }
+    .container-main {
         display: block;
         text-align: center;
     }
